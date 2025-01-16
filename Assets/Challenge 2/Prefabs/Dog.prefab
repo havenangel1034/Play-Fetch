@@ -1713,9 +1713,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8241448880392677113}
   - component: {fileID: 8241448880396301057}
+  - component: {fileID: 3361658027145407492}
   m_Layer: 0
   m_Name: SM_RhodesianRidgeback_01
-  m_TagString: Untagged
+  m_TagString: Dog
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1833,6 +1834,27 @@ SkinnedMeshRenderer:
     m_Center: {x: 0, y: -0.034129087, z: 0.08888093}
     m_Extent: {x: 0.05240287, y: 0.09925, z: 0.13395646}
   m_DirtyAABB: 0
+--- !u!65 &3361658027145407492
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8241448880392918983}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.016694492, y: 0.0039030195, z: 0.038435712}
+  m_Center: {x: -0.001479438, y: 0.15358989, z: 0.10845799}
 --- !u!1 &8241448880392920215
 GameObject:
   m_ObjectHideFlags: 0
@@ -5427,8 +5449,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.11581425, y: 1.9382042, z: 3.9043822}
-  m_Center: {x: 0.0050662817, y: -0.10076409, z: 0.104161456}
+  m_Size: {x: 0.17954044, y: 1.2661341, z: 0.8731554}
+  m_Center: {x: -0.026796862, y: -0.4368003, z: -1.411454}
 --- !u!114 &8241448879431697766
 MonoBehaviour:
   m_ObjectHideFlags: 0
